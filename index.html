@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Data Vault</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>DATA VAULT</h1>
+  <p class="desc">
+    Welcome to Data Vault. Secure and trusted platform to access Data Selling APK.
+    Complete a simple payment of ₹29 to unlock access.
+  </p>
+
+  <div class="payment-box">
+    <h2>Pay ₹29</h2>
+    <img src="qr.png" class="qr">
+    <p>UPI ID: <b>khan.1531@superyes</b></p>
+
+    <div class="apps">
+      <img src="paytm.png">
+      <img src="phonepe.png">
+      <img src="gpay.png">
+    </div>
+  </div>
+
+  <div class="utr-box">
+    <input type="text" id="utr" placeholder="Enter UTR Number">
+    <button onclick="verify()">Submit UTR</button>
+  </div>
+
+  <button class="apk-btn" onclick="notPaid()">GET APK</button>
+</div>
+
+<div class="popup" id="popup">
+  <p>Rahul paid ₹29</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
